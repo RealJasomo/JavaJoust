@@ -1,0 +1,52 @@
+Game implementation necessities:
+	- Monsters => collisions + 'intelligent' behavior
+
+	- Player => Fix collisions 
+
+	- Add texures(audio?)
+	- Implement jousting, score, lives
+	- Restructure level loading to allow for bigger window
+	- add more levels
+	- EGGS => trapping, getting eggs, monsters freeing themselves
+	- Moving between levels on wave completion
+	- images
+	- any additional features
+
+TODO:
+
+Collisions methods 
+	- onCollison(player)
+	- onCollision(Monster)
+	- OnCollision(egg)
+	- onCOllision(projectile)
+	- onCollision(environment)
+change onCollision for entity to checkCollisions()
+
+
+Collision behaviors:
+
+player:
+	player --none unless multiplayer is established
+	monster -- check height; reduce life and respawn if lower; if heigher kill monster; increase score
+	projectile -- reduce life and respawn; increase score
+	egg -- kill egg produce points
+	environment -- if player is above set walking, if below or sides don't allow pass through
+monster:
+	monster -- change directions of each monster
+	egg - spawn monster from egg	
+projectile -- kill projectile
+	environment -- if sides change direction and fly up or down to safe height
+projectile:
+	-projectile -- kill both projectiles
+	-environment --kill projectile
+
+update method collison in gamecomponent
+	- should invoke checkCollisions for all objects
+
+Audio processing engine:
+	-play standard background music
+	-sound effects on collisions
+Textures:
+	Implement background
+	change platforms look to be more rustic
+	player + monster sprites

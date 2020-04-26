@@ -1,0 +1,48 @@
+JOUST Notes:
+enemy description:
+50 pts for dieing 2,000 pts for killing another player
+Bounder(red,500pts), Hunter (white, 750pts) => appears wave 3 , Shadow Lord(blue,1,000pts) => first appear wave 16
+egg hatches into a more powerful nights
+eggs award 250-1,000 pts in 250pt increments which start over upon death of the player or the beginning of another wave
+a wave is cleared when the player destroys all enemy knights and eggs.
+
+wave completion 3,000 pts
+
+9 tiles tall
+10 tiles wide
+
+*Begins showing high score screens with daily and total high scores
+* animated colors and rotating border
+credits 0
+
+Title screen:
+
+BIG Joust
+presentedd by:
+williams electronics inc.
+extra mount every 20,000 pnts
+(c) 1982 williams electronics inc
+
+credits 0
+
+red animated border then changes colors to green then blue then yellow then white.
+
+while waiting demo video
+
+animation on collision exception of edges and buzzards
+wave 1
+prepare to joust
+
+buzzard bait!
+
+wave one contains only Bounder
+
+next wave shows wave followed by number
+
+WAVE 3 => floor is gone and the troll attempts to drag you into the lava. can escape by flapping
+
+gladiator waves => encourage players to kill each other offering 3,000 bts points to surviving player
+	- multiplayer only
+Egg wave (every 5th wave) => begins with a full complement of platforms with pre-populated eggs
+
+Pterodactyl => on wave 8 then every 5th wave following one to max of three pterodactyls will appear. 
